@@ -13,6 +13,12 @@ body {
     color: var(--dark-gray);
 }
 
+.container {
+    width: 907px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .navigation-link {
     color: var(--nav-color);
     text-decoration: none;
@@ -27,7 +33,7 @@ body {
 }
 
 .post-subtitle {
-    font-family: "Ubuntu", serif ;
+    font-family: "Ubuntu", serif;
     font-weight: 300;
     color: var(--light-gray);
     font-size: 14px;
@@ -40,4 +46,43 @@ body {
 
 .post-text {
     line-height: 1.35;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 48px;
+    color: var(--dark-gray);
+    background: none;
+    border: 1px solid var(--dark-gray);
+    cursor: pointer;
+}
+
+.post-item {
+    width: 420px;
+    margin-bottom: 130px;
+}
+
+.header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+
+.navigation-link:not(:last-child) {
+    margin-right: 99px;
+}
+
+.posts {
+    margin-bottom: 66px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.posts-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

@@ -37,11 +37,14 @@ body {
     font-weight: 300;
     color: var(--light-gray);
     font-size: 14px;
+    margin-top: 62px;
+    margin-bottom: 32px;
 }
 
 .post-title {
     font-weight: 400;
     font-size: 30px;
+    margin-bottom: 40px;
 }
 
 .post-text {

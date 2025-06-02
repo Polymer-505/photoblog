@@ -61,11 +61,6 @@ button {
     cursor: pointer;
 }
 
-.post-item {
-    width: 420px;
-    margin-bottom: 130px;
-}
-
 .header {
     padding-top: 71px;
     padding-bottom: 92px;
@@ -84,8 +79,17 @@ button {
     justify-content: center;
 }
 
-.posts-wrapper{
+.posts-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 65px;
+    row-gap: 130px;
+}
+
+.post-item {
+    width: calc((100% - 65px)/2)
+}
+
+.post-img {
+    width: 100%;
 }
